@@ -1,0 +1,12 @@
+package com.campus.medical.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.campus.medical.entity.MedicalPrescriptionItem;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 处方明细表 Mapper 接口
+ */
+@Mapper
+public interface MedicalPrescriptionItemMapper extends BaseMapper<MedicalPrescriptionItem> {
+}
