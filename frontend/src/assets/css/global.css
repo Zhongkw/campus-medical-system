@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+:root {
+    --medical-primary: #2385bb;
+    --medical-success: #36b37e;
+    --medical-warning: #ffab00;
+    --medical-danger: #ff5630;
+    --medical-bg: #f5f7fa;
+    --medical-white: #ffffff;
+}
+
+.layout-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    padding: 20px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.common-card {
+    background: var(--medical-white);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #303133;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
